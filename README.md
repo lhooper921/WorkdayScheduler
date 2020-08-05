@@ -15,4 +15,4 @@ This app contains hours within a typical workday (from 9am to 5pm) and allows th
 ![Screenshot Home](https://github.com/lhooper921/WorkdayScheduler/blob/424beae9c2ae27d502ffe092cb2719d1095245a0/assets/Screenshot1.PNG)
 
 ### Different colors correspond with past,present, or future times
-![Screenshot Classes](https://github.com/lhooper921/WorkdayScheduler/blob/424beae9c2ae27d502ffe092cb2719d1095245a0/assets/Screenshot1.PNG)
+![Screenshot Classes](https://github.com/lhooper921/WorkdayScheduler/blob/424beae9c2ae27d502ffe092cb2719d1095245a0/assets/Screenshot2.PNG)
