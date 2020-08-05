@@ -2,7 +2,7 @@
 
 // Define Variables
 let currentDate = moment().format("dddd, MMMM Do YYYY");
-let hour = moment().format("hh");
+let globalHour = moment().format("HH");
 
 const hours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 const container = $('#planner-body');
@@ -19,7 +19,6 @@ $("#currentDay").text(currentDate);
 hours.forEach(function (hour) {
     // Build the row
     const rowDiv = $('<form>');
-    
     rowDiv.addClass('row');
     rowDiv.addClass('time-block');
     // build the hour div
@@ -32,6 +31,7 @@ hours.forEach(function (hour) {
     hourDiv.addClass('col-3');
     hourDiv.addClass('hour');
 
+
 // append to row div
     rowDiv.append(hourDiv);
 
@@ -41,7 +41,16 @@ hours.forEach(function (hour) {
  inputDiv.addClass('col-6');
  inputDiv.attr('id', 'taskHour' + hour);
  inputDiv.val(localStorage.getItem("taskHour" + hour));
- 
+     // Add classes based on current time
+   if (hour === globalHour) {
+       inputDiv.addClass('present');
+   }
+   if (hour < globalHour) {
+    inputDiv.addClass('past');
+}
+if (hour > globalHour) {
+    inputDiv.addClass('future');
+}
  
  
  // append to row div
