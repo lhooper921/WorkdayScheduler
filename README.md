@@ -1,4 +1,6 @@
 # Work Day Scheduler
+Deployed Application  
+www.linkedin.com/in/laurenalysehooper  
 
 ## Table of Contents
 1. [Description](#description)
