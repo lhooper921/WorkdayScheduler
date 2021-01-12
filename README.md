@@ -1,6 +1,6 @@
 # Work Day Scheduler
 Deployed Application  
-www.linkedin.com/in/laurenalysehooper  
+https://lhooper921.github.io/WorkdayScheduler/  
 
 ## Table of Contents
 1. [Description](#description)
